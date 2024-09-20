@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let section = document.createElement("section");
+        let h2 = document.createElement("h2");
+        let p1 = document.createElement("p");
+        let p2 = document.createElement("p");
+        let p3 = document.createElement("p");
+        let p4 = document.createElement("p");
+
+        h2.innerText="Laptops";
+        p1.innerText="Dell";
+        p2.innerText="HP";
+        p3.innerText="Lenovo";
+        p4.innerText="Asus";
+        section.appendChild(h2);
+        section.appendChild(p1);
+        section.appendChild(p2);
+        section.appendChild(p3);
+        section.appendChild(p4);
+
+        document.body.appendChild(section);
+
+    </script>
+</body>
+</html>

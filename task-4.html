@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td{
+            border: 2px solid;;
+            border-collapse: collapse
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let table = document.createElement("table");
+        let row1 = document.createElement("tr");
+        let row2 = document.createElement("tr");
+        let row1heading1 = document.createElement("th");
+        let row1heading2 = document.createElement("th");
+        let row2td1 = document.createElement("td");
+        let row2td2 = document.createElement("td");
+        row1heading1.innerText="Name";
+        row1heading2.innerText="Age";
+        row2td1.innerText="Raju";
+        row2td2.innerText="22";
+        row1.appendChild(row1heading1);
+        row1.appendChild(row1heading2);
+        row2.appendChild(row2td1);
+        row2.appendChild(row2td2);
+        table.appendChild(row1);
+        table.appendChild(row2);
+        document.body.appendChild(table);
+
+
+
+        
+
+        
+
+
+    </script>
+</body>
+</html>
